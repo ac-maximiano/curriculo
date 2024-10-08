@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ari Costa Maximiano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @page {
+            size: A4;
+        }
+
+        body {
+            width: 210mm;
+            height: 594mm;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+
+        sidebar {
+            height: 100%;
+            width: 70mm;
+            background-color: #424244;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .profile-image-container {
+                margin-top: 35px;
+                overflow: hidden;
+                width: 120px;
+                height: 120px;
+                border-radius: 60px;
+            }
+
+            .profile-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .side-container {
+                margin-top: 70mm;
+                color: white;
+                text-align: center;
+
+                .side-item-title {
+                    text-decoration: underline;
+                    text-transform: uppercase;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+
+                .side-item-text {
+                    font-size: small;
+                    margin-bottom: 3px
+                }
+            }
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            height: 30mm;
+        }
+
+        .cv-name-container {
+            align-content: center;
+        }
+
+        .cv-name-text {
+            text-transform: uppercase;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 24px;
+            font-weight: lighter;
+            margin: 0;
+        }
+
+        .cv-links {
+            align-content: center;
+            font-size: small;
+
+            .cv-link-item {
+                margin: 0.5rem;
+            }
+        }
+
+        .cv-link-text {
+            text-decoration: none;
+            color: inherit;
+            font-style: italic;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            height: 257mm;
+            padding: 0 15px;
+        }
+
+        .text-content {
+            text-align: justify;
+            font-size: small;
+        }
+
+        .cv-section {
+            padding-bottom: 5px;
+        }
+
+        .custom-card {
+            padding: 6px 0 !important;
+            border: none;
+
+            .custom-card-body {
+                padding: 0 !important;
+
+                .card-text {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .skill-card-body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .skill-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 15px;
+
+            .skill-list-item {
+                padding-bottom: 10px;
+                width: 100%;
+
+                .skill-title {
+                    font-weight: bold;
+                }
+
+                .skill-highlight-text {
+                    font-size: 8px;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <sidebar>
+            <div class="profile-image-container">
+                <img class="profile-image" src="./assets/IMG_20210824_205732.jpg" alt="">
+            </div>
+
+            <div class="side-container">
+                <div class="side-item">
+                    <h6 class="side-item-title">
+                        Idiomas
+                    </h6>
+                    <p class="side-item-text">Inglês nível intermediário</p>
+                </div>
+            </div>
+            <div class="side-container">
+                <div class="side-item">
+                    <h6 class="side-item-title">Sobre mim</h6>
+                    <p class="side-item-text">Viagens curtas</p>
+                    <p class="side-item-text">Atividades ao ar livre</p>
+                    <p class="side-item-text">Cachoeiras</p>
+                    <p class="side-item-text">Praias</p>
+                    <p class="side-item-text">Churrasco com amigos</p>
+                    <p class="side-item-text">Estudo de tecnologias</p>
+                    <p class="side-item-text">Jogos eletrônicos</p>
+                </div>
+            </div>
+        </sidebar>
+
+        <main>
+            <div class="row header">
+                <div class="col-md-6 cv-name-container p-5">
+                    <h6 class="cv-name-text">Ari Costa Maximiano</h6>
+                </div>
+                <div class="col-md-6 cv-links">
+                    <div class="row cv-link-item">
+                        <div class="col-12">
+                            <a class="cv-link-text" href="https://wa.me/5531983770507">
+                                <i class="bi bi-whatsapp"></i>
+                                <span>(31) 98377-0507</span></a>
+                        </div>
+                    </div>
+                    <div class="row cv-link-item">
+                        <div class="col-12">
+                            <a class="cv-link-text" href="mailto:acmaximiano@gmail.com">
+                                <i class="bi bi-envelope-at-fill"></i>
+                                <span>acmaximiano@gmail.com</span></a>
+                        </div>
+                    </div>
+                    <div class="row cv-link-item">
+                        <div class="col-12">
+                            <a class="cv-link-text" href="https://www.linkedin.com/in/ari-maximiano/">
+                                <i class="bi bi-linkedin"></i>
+                                <span>www.linkedin.com/in/ari-maximiano</span></a>
+                        </div>
+                    </div>
+                    <div class="row cv-link-item">
+                        <div class="col-12">
+                            <a class="cv-link-text" href="https://github.com/ac-maximiano">
+                                <i class="bi bi-github"></i>
+                                <span>github.com/ac-maximiano</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <section class="cv-section cv-summary-container">
+                    <h5 class="section-title">Resumo</h5>
+                    <div class="section-body">
+                        <p class="text-content" style="text-align: justify; font-size: 12px;">Desenvolvedor Full Stack
+                            com quase 7 anos
+                            de experiência em desenvolvimento de soluções robustas em ambientes corporativos,
+                            especializado em .NET e Angular. Experiência otimização de processos e implementação de boas
+                            práticas de desenvolvimento.
+                            Sempre focado em obter mais conhecimento e interessado em conhecer novas tecnologias,
+                            padrões e arquiteturas.
+                            <br>
+                            SOLID não é uma escolha, é mandatório!
+                        </p>
+                    </div>
+                </section>
+                <section class="cv-section cv-professional-experiences-container">
+                    <h5 class="section-title">Experiências Profissionais</h5>
+                    <div class="section-body">
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body">
+                                <div class="card-title">Desenvolvedor .Net Full Stack Sênior</div>
+                                <div class="card-subtitle text-body-secondary">Totvs (Abril 2024 - Atual)</div>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Desenvolvimento de funcionalidades para portais operacionais para o Sebrae
+                                            Nacional (todas unidades ferederativas);</li>
+                                        <li>Sustentação de aplicações legadas e atendimento de chamados com SLA de tempo
+                                            de resposta;</li>
+                                        <li>Implantação e desenvolvimento, junto aos demais desenvolvedores, de cultura
+                                            de testes unitários;</li>
+                                        <li>Participação ativa no desenvolvimento de soluções para migração dos portais
+                                            para ambiente cloud;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body">
+                                <div class="card-title">Desenvolvedor .Net Full Stack Sênior</div>
+                                <div class="card-subtitle text-body-secondary">TCE-MG - Inova BPO (Outubro 2021 -
+                                    Novembro 2023)</div>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Desenvolvimento de melhorias e sustentação de aplicações para o controle de
+                                            custos, reembolsos de viagens, diárias, cursos e eventos dos servidores do
+                                            Tribunal de Contas de MG;</li>
+                                        <li>Criação de portal para recebimento de solicitações de usuários internos e
+                                            externos (Ouvidoria);</li>
+                                        <li>Implantação de ciclos Scrum (Sprints) e cerimônias da metodologia ágil junto
+                                            à equipe.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body">
+                                <div class="card-title">Desenvolvedor .Net Full Stack Pleno</div>
+                                <div class="card-subtitle text-body-secondary">Demarco (Dezembro 2020 - Outubro 2021)
+                                </div>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Atuação na manutenção e sustentação de soluções para Gestão de Frotas;</li>
+                                        <li>Desenvolvimento de projetos web e mobile voltados à gestão de documentos,
+                                            frotas e contextos educacionais de colaboradores.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body">
+                                <div class="card-title">Desenvolvedor .Net Full Stack Júnior</div>
+                                <div class="card-subtitle text-body-secondary">Sinqia S.A (Agosto 2020 - Dezembro 2020)
+                                </div>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Desenvolvimento de nova solução de software para gestão de planos de
+                                            previdência privada;</li>
+                                        <li>Pesquisa e desenvolvimento de tecnologias voltadas para soluções no mercado
+                                            financeiro.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body">
+                                <div class="card-title">Desenvolvedor .Net Full Stack Júnior</div>
+                                <div class="card-subtitle text-body-secondary">Jabil Indústria Eletroeletrônica do
+                                    Brasil (Julho 2019 - Agosto 2020)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="cv-section cv-academic-container">
+                    <h5 class="section-title">Formação</h5>
+                    <div class="section-body">
+                        <h6>Instituto Federal de Educacação Tecnológica de Minas Gerais</h6>
+                        <p class="text-content" style="text-align: justify; margin-bottom: 3px;">
+                            Engenharia de Controle e Automação - Trancado 8º Período
+                        </p>
+                        <p class="text-content" style="text-align: justify; font-size: 12px;">
+                            Monitor remunerado nas disciplinas de Algoritmos e Estruturas de Dados, Banco de Dados e
+                            Processamento de Sinais para os 1º e 2º períodos dos cursos de Engenharia Mecânica e
+                            Engenharia de Controle e Automação
+                        </p>
+                    </div>
+                </section>
+                <section class="cv-section cv-skills-container" style="margin-top: 45px;">
+                    <h5 class="section-title">Mapa de Habilidades</h5>
+                    <div class="section-body">
+                        <div class="card custom-card">
+                            <div class="card-body custom-card-body skill-card-body">
+                                <div class="card-text">
+                                    <ul class="skill-list">
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">.NET e .NET Core (C#)</span>
+                                            <div class="progress" role="progressbar" aria-label=".net skills"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 90%">Avançado</div>
+                                            </div>
+                                            <span class="skill-highlight-text">Programação Assíncrona
+                                                (async/await - Task); Reflection; JWT; Identity e Identity Server; xUnit
+                                                e Unit; RESTfull e MinimalApi's; Blazor; WPF; MAUI e etc.</span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Bancos de dados relacionais (SQL Server - Oracle -
+                                                MySql)</span>
+                                            <div class="progress" role="progressbar"
+                                                aria-label="relational databases skills" aria-valuenow="75"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 75%">Intermediário a Avançado
+                                                </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Design e Modelagem;
+                                                normalização/desnormalização; segurança e controle de acesso; stored
+                                                procedures e funções; análise de planos de execução.</span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Bancos de dados não relacionais (MongoDb)</span>
+                                            <div class="progress" role="progressbar" aria-label="nosql databases skills"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 50%">Intermediário</div>
+                                            </div>
+                                            <span class="skill-highlight-text">Modelagem de documentos; consultas e
+                                                indíces compostos; Aggregation pipelines; transações.</span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Design Patterns, POO, SOLID e Clean / Onion
+                                                Architecture</span>
+                                            <div class="progress" role="progressbar"
+                                                aria-label="design patterns and solid skills" aria-valuenow="50"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 90%">Avançado</div>
+                                            </div>
+                                            <span class="skill-highlight-text">Repository; singleton; uow; ioc; factory;
+                                                state; cqrs; mediator; sobrecarga; herança; polimorfismo e abstração.
+                                                Área que julgo ser chave para qualquer desenvolvedor.
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Conceitos de DDD</span>
+                                            <div class="progress" role="progressbar" aria-label="DDD concepts skills"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 50%">Intermediário</div>
+                                            </div>
+                                            <span class="skill-highlight-text">Bom nível de conhecimento a nível de
+                                                estudo, porém de baixa adesão nas minhas principais experiências.
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">TDD</span>
+                                            <div class="progress" role="progressbar" aria-label="TDD skills"
+                                                aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 35%">Básico a Intermediário
+                                                </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Algum conhecimento a nível de estudos,
+                                                mas sem qualquer adesão em minhas experiências profissionais
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Testes unitários e Integrados</span>
+                                            <div class="progress" role="progressbar"
+                                                aria-label="unit e integrated tests skills" aria-valuenow="35"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 65%">Intermediário a Avançado
+                                                </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Estruturação; Assert.Multiple; Theory,
+                                                InlineData, MemberData, ClassData discernimento e emprego; fixtures e
+                                                mocks; análise de cobertura e etc;
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Mensageria (Azure Servicebus e RabbitMq)</span>
+                                            <div class="progress" role="progressbar" aria-label="messaging skills"
+                                                aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 35%">Básico a Intermediário
+                                                </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Conhecimento e vivência básicas de
+                                                configuração, consumo e publicação de serviço de mensageria utilizando
+                                                protocolo AMQP - maior vivência em Azure ServiceBus; monitoramento;
+                                                alguma vivência com implementação de DLQ's (dead
+                                                letter queues).
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Javascript (ECMAScript 12)</span>
+                                            <div class="progress" role="progressbar" aria-label="js skills"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 85%">Avançado </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Promises; spread operator;
+                                                desestruturing; módulos; herança.
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Vue.js</span>
+                                            <div class="progress" role="progressbar" aria-label="vue.js skills"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 30%">Básico </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Vivência básica com Vue.js em
+                                                implementação de novas funcionalidades em sistemas legados Aspnet
+                                                Framework MVC em substituição ao JQuery.
+                                            </span>
+                                        </li>
+                                        <li class="skill-list-item">
+                                            <span class="skill-title">Angular 2+ (até o 15)</span>
+                                            <div class="progress" role="progressbar" aria-label="angular 2+ skills"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 85%">Avançado </div>
+                                            </div>
+                                            <span class="skill-highlight-text">Módulos; reactive forms; rxjs
+                                                (observables, subjects e behaviorsubjects); roteamento - criação, rotas
+                                                aninhadas, guards e resolvers - diretivas e pipes personalizados;
+                                                gerenciamento de estado com ngrx - Redux - (a nível de estudo); i18n;
+                                                pwa's.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
