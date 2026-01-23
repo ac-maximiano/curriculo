@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Ari Maximiano",
+    "title": "Desenvolvedor Full Stack .NET Sênior",
+    "location": "Contagem, MG",
+    "email": "acmaximiano@gmail.com",
+    "linkedin": "https://linkedin.com/in/ari-maximiano",
+    "github": "https://github.com/ac-maximiano"
+  },
+  "summary": "Desenvolvedor Sênior com sólida base em engenharia e lógica de dados. Especialista em .NET e Angular, com foco na resolução de problemas complexos de negócio através de arquiteturas limpas e escaláveis. Experiência comprovada em liderança técnica, definição de padrões de projeto (Clean Architecture/SOLID), modernização de sistemas legados e implementação de pipelines CI/CD.",
+  "skills": {
+    "backend": [ ".NET 8", "C#", "ASP.NET MVC", "Node.js", "EF Core", "Dapper" ],
+    "frontend": [ "Angular", "TypeScript", "JavaScript", "HTML5/CSS3" ],
+    "architecture": [ "Clean Arch", "Microservices", "Docker", "RabbitMQ", "Azure DevOps", "GraphQL" ]
+  },
+  "experience": [
+    {
+      "company": "TOTVS",
+      "role": "Analista de Desenvolvimento .NET Sênior",
+      "period": "Abr 2024 – Atual",
+      "details": [
+        "Atuação na arquitetura e implementação de novas features para ERPs robustos utilizando .NET e Angular.",
+        "Definição de padrões técnicos, Code Reviews e mentoria técnica para desenvolvedores.",
+        "Otimização de pipelines de CI/CD no Azure DevOps."
+      ]
+    },
+    {
+      "company": "Tribunal de Contas de MG",
+      "role": "Desenvolvedor .NET Sênior",
+      "period": "Dez 2021 – Dez 2023",
+      "details": [
+        "Liderança técnica no desenvolvimento de aplicações críticas de controle de gastos públicos.",
+        "Modernização de legado utilizando .NET Core e Clean Code.",
+        "Manipulação de grandes volumes de dados em Oracle (PL/SQL)."
+      ]
+    },
+    {
+      "company": "Demarco",
+      "role": "Desenvolvedor .NET Pleno",
+      "period": "Dez 2020 – Nov 2021",
+      "details": [
+        "Desenvolvimento Full Stack (.NET Core/Angular/NodeJS) para gestão de frotas.",
+        "Gerenciamento de dados híbridos com SQL Server e MongoDB."
+      ]
+    }
+  ],
+  "previous_experience": [
+    "<strong>Sinqia:</strong> Dev .NET Jr (Mercado Financeiro/Previdência).",
+    "<strong>Jabil:</strong> Dev .NET Jr (ASP.NET MVC).",
+    "<strong>Estágio Engenharia:</strong> Automação VBA e Dashboards."
+  ],
+  "education": [
+    "<strong>Engenharia de Controle e Automação</strong> - IFMG (2016 – 2021)",
+    "<strong>Técnico em Mecânica Industrial</strong> - CEFET-MG (2006 – 2008)"
+  ]
+}
